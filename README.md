@@ -1,7 +1,7 @@
 # Kinyarwanda_Voice_AI 🇷🇼
 Kinyarwanda Voice Assistant - A locally-run AI assistant that understands and speaks Kinyarwanda. Features speech recognition (STT), natural language processing, and text-to-speech (TTS) with Gradio web interface. Ideal for Rwandan developers, researchers, and language preservation efforts.
 
-!Demo Screenshot 
+Demo Screenshot 
 <img width="1440" alt="image" src="https://github.com/user-attachments/assets/f99c74f7-1673-49fb-8fbc-85526c824cd8" />
 
 
@@ -59,10 +59,10 @@ Using the Assistant
 
 Speak or upload audio in Kinyarwanda
 
-The assistant will:
--Transcribe your speech
--Generate an appropriate response
--Speak back the response
+  The assistant will:
+    -Transcribe your speech
+    -Generate an appropriate response
+    -Speak back the response
 
 ### Project Structure 📂
 ```bash
@@ -90,26 +90,26 @@ matplotlib>=3.5  # Required by some NeMo components
 ```
 ### Contributing 🤝
 Contributions are welcome! Please open an issue or pull request for:
--Bug fixes
--New features
--Improved documentation
+- Bug fixes
+- New features
+- Improved documentation
 
 ### ⚠️ Limitations
--Accuracy depends on audio quality (quiet environments work best)
--Fixed number of patterns/intents (can be extended easily)
-Requires specific model paths and initialization before TTS
+- Accuracy depends on audio quality (quiet environments work best)
+- Fixed number of patterns/intents (can be extended easily)
+- Requires specific model paths and initialization before TTS
 
 ### 📚 Resources and Credits
--STT Model: mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
--TTS Engine: KinyaTTS (MB-iSTFT-VITS2)
--Gradio Interface: Gradio by Hugging Face
--NVIDIA NeMo: Official Repo
--Audio Processing: pydub, torchaudio
+- STT Model: mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
+- TTS Engine: KinyaTTS (MB-iSTFT-VITS2)
+- Gradio Interface: Gradio by Hugging Face
+- NVIDIA NeMo: Official Repo
+- Audio Processing: pydub, torchaudio
 
 ### 🙏 Acknowledgements
--Rwanda MIT Research Team – for open-sourcing KinyaTTS
--Hugging Face – for hosting and distributing models
--NVIDIA – for the NeMo framework
+- Rwanda MIT Research Team – for open-sourcing KinyaTTS
+- Hugging Face – for hosting and distributing models
+- NVIDIA – for the NeMo framework
 
 ### 📄 License
 This project is licensed under the MIT License — feel free to use and modify for non-commercial purposes.
