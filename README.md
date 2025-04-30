@@ -109,6 +109,3 @@ Contributions are welcome! Please open an issue or pull request for:
 - Rwanda MIT Research Team – for open-sourcing KinyaTTS
 - Hugging Face – for hosting and distributing models
 - NVIDIA – for the NeMo framework
-
-### 📄 License
-This project is licensed under the MIT License — feel free to use and modify for non-commercial purposes.
