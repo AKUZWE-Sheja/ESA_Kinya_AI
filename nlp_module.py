@@ -48,16 +48,14 @@ INTENTS = {
 
 # --- Step 3: QA dictionary (your factual questions) ---
 QA = {
-    "ni iki gituma u rwanda rwitwa igihugu cy'imisozi igihumbi": 
-        "Kubera ko gifite imisozi myinshi cyane itatse igihugu cyose.",
-    "umusozi muremure mu rwanda ni uwuhe": 
-        "Ni Karisimbi, ufite uburebure bwa metero 4,507.",
-    "ni irihe shyamba rinini riboneka mu rwanda": 
-        "Ni ishyamba rya Nyungwe.",
-    "ni izihe ndimi zikoreshwa cyane mu rwanda": 
-        "Ikinyarwanda, Icyongereza, Igifaransa, n'Igiswahili.",
-    "ni iki cyihariye ku muco nyarwanda": 
-        "Gukunda igihugu, gusabana, kubaha abakuru, nimigenzo nk'igisabo."
+    "Umurwa mukuru w' u Rwanda ni uwuhe?": "Ni Kigali.",
+    "Ni hehe hari ikiyaga cya Kivu?": "Icyo kiyaga kiri i Rubavu.",
+    "Perezida w' u Rwanda ni nde?": "Ni Paul Kagame.",
+    "Indirimbo y' igihugu yitwa ite?": "Yitwa Rwanda Nziza.",
+    "U Rwanda ruherereye hehe?": "Ruherereye muri Afurika y'Iburasirazuba.",
+    "Kigali ifite uturere tungahe?": "Ifite uturere dutatu.",
+    "Itariki y' ubwigenge bw' u Rwanda ni iyihe?": "Ni tariki yambere Nyakanga.",
+    "Icyumweru gifite iminsi ingahe?": "Gifite iminsi irindwi."
 }
 
 # --- Step 4: Build Keyword Map for QA ---
