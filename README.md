@@ -58,11 +58,10 @@ http://localhost:7860
 Using the Assistant
 
 Speak or upload audio in Kinyarwanda
-
-  The assistant will:
-    -Transcribe your speech
-    -Generate an appropriate response
-    -Speak back the response
+The assistant will:
+- Transcribe your speech
+- Generate an appropriate response
+- Speak back the response
 
 ### Project Structure 📂
 ```bash
@@ -101,8 +100,8 @@ Contributions are welcome! Please open an issue or pull request for:
 
 ### 📚 Resources and Credits
 - STT Model: mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
-- TTS Engine: KinyaTTS (MB-iSTFT-VITS2)
-- Gradio Interface: Gradio by Hugging Face
+- TTS Engine: (https://github.com/kinyatts)
+- Gradio Interface: (https://gradio.app/)
 - NVIDIA NeMo: Official Repo
 - Audio Processing: pydub, torchaudio
 
