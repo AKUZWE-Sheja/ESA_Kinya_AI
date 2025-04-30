@@ -29,16 +29,93 @@ Kinyarwanda Voice Assistant - A locally-run AI assistant that understands and sp
 ```bash
 git clone https://github.com/Chloe-sys/kinyarwanda_Voice_AI.git
 cd kinyarwanda_Voice_AI
-
-
-2.Install dependencies:
+```
+2. Install dependencies:
 
 ```bash
 pip install -r requirements.txt
-Download models (automatic on first run):
+```
 
+3. Download models (automatic on first run):
+
+```bash
 ASR: mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
-
 TTS: Pre-trained KinyaTTS model
+```
+
+####Usage 🚀
+
+Running the Web Interface
+
+```bash
+python interface.py
+```
+The interface will launch at:
+
+```bash
+http://localhost:7860
+```
+
+#####Using the Assistant
+
+Speak or upload audio in Kinyarwanda
+
+The assistant will:
+-Transcribe your speech
+-Generate an appropriate response
+-Speak back the response
+
+Project Structure 📂
+```bash
+.
+├── interface.py               # Gradio interface
+├── assistant.py         # Main assistant pipeline
+├── stt_module.py        # Speech-to-text processing
+├── tts_module.py        # Text-to-speech synthesis
+├── nlp_module.py        # Natural language processing
+├── audio_samples/       # Example audio files
+├── outputs/             # Generated response audio
+└── requirements.txt     # Dependencies
+```
+
+######Requirements
+```bash
+gradio>=3.0
+torch>=1.10
+torchaudio>=0.10
+nemo_toolkit[asr]>=1.7
+soundfile>=0.10
+huggingface_hub>=0.10
+numpy>=1.21
+matplotlib>=3.5  # Required by some NeMo components
+```
+#######Contributing 🤝
+Contributions are welcome! Please open an issue or pull request for:
+-Bug fixes
+-New features
+-Improved documentation
+
+########⚠️ Limitations
+-Accuracy depends on audio quality (quiet environments work best)
+-Fixed number of patterns/intents (can be extended easily)
+Requires specific model paths and initialization before TTS
+
+#########📚 Resources and Credits
+-STT Model: mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
+-TTS Engine: KinyaTTS (MB-iSTFT-VITS2)
+-Gradio Interface: Gradio by Hugging Face
+-NVIDIA NeMo: Official Repo
+-Audio Processing: pydub, torchaudio
+
+#########🙏 Acknowledgements
+-Rwanda MIT Research Team – for open-sourcing KinyaTTS
+-Hugging Face – for hosting and distributing models
+-NVIDIA – for the NeMo framework
+
+#########📄 License
+This project is licensed under the MIT License — feel free to use and modify for non-commercial purposes.
+
+
+
 
 
