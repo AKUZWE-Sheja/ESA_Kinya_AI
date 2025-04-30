@@ -42,8 +42,7 @@ pip install -r requirements.txt
 ASR: mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
 TTS: Pre-trained KinyaTTS model
 ```
-
-####Usage 🚀
+Usage 🚀
 
 Running the Web Interface
 
@@ -56,7 +55,7 @@ The interface will launch at:
 http://localhost:7860
 ```
 
-#####Using the Assistant
+Using the Assistant
 
 Speak or upload audio in Kinyarwanda
 
@@ -78,7 +77,7 @@ Project Structure 📂
 └── requirements.txt     # Dependencies
 ```
 
-######Requirements
+Requirements
 ```bash
 gradio>=3.0
 torch>=1.10
@@ -89,30 +88,30 @@ huggingface_hub>=0.10
 numpy>=1.21
 matplotlib>=3.5  # Required by some NeMo components
 ```
-#######Contributing 🤝
+Contributing 🤝
 Contributions are welcome! Please open an issue or pull request for:
 -Bug fixes
 -New features
 -Improved documentation
 
-########⚠️ Limitations
+⚠️ Limitations
 -Accuracy depends on audio quality (quiet environments work best)
 -Fixed number of patterns/intents (can be extended easily)
 Requires specific model paths and initialization before TTS
 
-#########📚 Resources and Credits
+📚 Resources and Credits
 -STT Model: mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
 -TTS Engine: KinyaTTS (MB-iSTFT-VITS2)
 -Gradio Interface: Gradio by Hugging Face
 -NVIDIA NeMo: Official Repo
 -Audio Processing: pydub, torchaudio
 
-#########🙏 Acknowledgements
+🙏 Acknowledgements
 -Rwanda MIT Research Team – for open-sourcing KinyaTTS
 -Hugging Face – for hosting and distributing models
 -NVIDIA – for the NeMo framework
 
-#########📄 License
+📄 License
 This project is licensed under the MIT License — feel free to use and modify for non-commercial purposes.
 
 
