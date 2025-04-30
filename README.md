@@ -99,11 +99,11 @@ Contributions are welcome! Please open an issue or pull request for:
 - Requires specific model paths and initialization before TTS
 
 ### 📚 Resources and Credits
-- STT Model: mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
-- TTS Engine: (https://github.com/kinyatts)
-- Gradio Interface: (https://gradio.app/)
-- NVIDIA NeMo: Official Repo
-- Audio Processing: pydub, torchaudio
+- STT Model: https://huggingface.co/mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
+- TTS Engine: https://github.com/kinyatts
+- Gradio Interface: https://gradio.app/
+- NVIDIA NeMo: https://github.com/NVIDIA/NeMo
+- Audio Processing: https://github.com/jiaaro/pydub, https://pytorch.org/audio/stable/index.html
 
 ### 🙏 Acknowledgements
 - Rwanda MIT Research Team – for open-sourcing KinyaTTS
