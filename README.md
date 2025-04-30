@@ -26,10 +26,19 @@ Kinyarwanda Voice Assistant - A locally-run AI assistant that understands and sp
 ### Setup
 
 1. Clone the repository:
-```bas
-git clone https://github.com/Chloe-sys/kinyarwanda-voice-assistant.git
-cd kinyarwanda-voice-assistant
+```bash
+git clone https://github.com/Chloe-sys/kinyarwanda_Voice_AI.git
+cd kinyarwanda_Voice_AI
 
 
+2.Install dependencies:
+
+```bash
+pip install -r requirements.txt
+Download models (automatic on first run):
+
+ASR: mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
+
+TTS: Pre-trained KinyaTTS model
 
 
