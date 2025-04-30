@@ -42,7 +42,7 @@ pip install -r requirements.txt
 ASR: mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
 TTS: Pre-trained KinyaTTS model
 ```
-Usage 🚀
+###Usage 🚀
 
 Running the Web Interface
 
@@ -64,7 +64,7 @@ The assistant will:
 -Generate an appropriate response
 -Speak back the response
 
-Project Structure 📂
+###Project Structure 📂
 ```bash
 .
 ├── interface.py               # Gradio interface
@@ -77,7 +77,7 @@ Project Structure 📂
 └── requirements.txt     # Dependencies
 ```
 
-Requirements
+###Requirements
 ```bash
 gradio>=3.0
 torch>=1.10
@@ -88,7 +88,7 @@ huggingface_hub>=0.10
 numpy>=1.21
 matplotlib>=3.5  # Required by some NeMo components
 ```
-Contributing 🤝
+###Contributing 🤝
 Contributions are welcome! Please open an issue or pull request for:
 -Bug fixes
 -New features
