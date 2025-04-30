@@ -100,10 +100,11 @@ Contributions are welcome! Please open an issue or pull request for:
 
 ### 📚 Resources and Credits
 - STT Model: https://huggingface.co/mbazaNLP/Kinyarwanda_nemo_stt_conformer_model
-- TTS Engine: https://github.com/kinyatts
+- TTS Engine: https://github.com/anzeyimana/KinyaTTS
 - Gradio Interface: https://gradio.app/
 - NVIDIA NeMo: https://github.com/NVIDIA/NeMo
 - Audio Processing: https://github.com/jiaaro/pydub, https://pytorch.org/audio/stable/index.html
+- STT model: https://github.com/agent87/RW-DEEPSPEECH-API
 
 ### 🙏 Acknowledgements
 - Rwanda MIT Research Team – for open-sourcing KinyaTTS
